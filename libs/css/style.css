@@ -17,25 +17,24 @@ body{
 .instagram-wrapper{
     display:flex;
     align-items:center;
-    justify-content:space-between;
-    width:60%;
-    height:100% ;
+    justify-content:center;
+    margin-top:5%;
 }
 .instagram-phone{
     display:flex;
     align-items:center;
     justify-content:center;
-    width: 50%;
 }
 .instagram-phone img{
-    height:50rem;
+   display:flex;
+   
 }
 .instagram-continue{
     display:flex;
     align-items:center;
     justify-content: space-around;
     flex-direction: column;
-    width:50%;
+    width:30rem;
     min-height:34rem;
 
 }
@@ -113,24 +112,26 @@ min-height: 19rem;
 .app-download:nth-child(2){
     background-image: url(https://logodownload.org/wp-content/uploads/2017/04/disponivel-google-play-badge-1.png);
 }
-
-@media (max-width:1024px){
-    .instagram-wrapper{
-        width:90%;
-    }
+.container{
+    display:flex;
+    flex-direction:column;
+    width:100%;
 }
-@media (max-width:650px){
+footer{
+    text-decoration:none;
+    text-align:center;
+    width:100%;
+}
+
+
+@media (max-width:768px){
     body{
         background-color:white;
     }
-    .instagram-wrapper{
-        width:90%;
-    }
+   
     .instagram-phone{
         display: none;
     }
-    .instagram-continue{
-        width: 100%;
-    }
+    
 
 }
